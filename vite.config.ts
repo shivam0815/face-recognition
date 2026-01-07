@@ -8,7 +8,7 @@ export default defineConfig({
     port: 4173,
     allowedHosts: [
       "face-recognition-oi80.onrender.com",
-      ".onrender.com", // allow any Render subdomain (optional but useful)
+      ".onrender.com", 
     ],
   },
 });
