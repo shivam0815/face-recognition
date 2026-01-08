@@ -1,0 +1,78 @@
+
+Why Current Systems Fail
+1. Dependence on Physical Artifacts
+Current travel systems are built around tickets, cards, printouts, and physical IDs. These artifacts:
+●	Can be lost, damaged, or forgotten
+●	Are easy to duplicate or misuse
+●	Create dependency on paper, plastic, or devices
+A traveler’s identity is external, not intrinsic to the system.
+________________________________________
+2. Fragmented & Siloed Systems
+Each stakeholder operates independently:
+●	Airlines issue boarding passes
+●	Airports verify IDs
+●	Immigration checks passports
+●	Railways and metros validate tickets separately
+There is no unified identity layer, forcing travelers to prove themselves repeatedly at every checkpoint.
+________________________________________
+3. Manual & Semi-Digital Verification
+Most checkpoints still rely on:
+●	Visual ID matching by staff
+●	QR code or barcode scanning
+●	Human judgment and manual intervention
+This leads to:
+●	Human error
+●	Slower passenger movement
+●	Inconsistent enforcement of rules
+________________________________________
+4. Poor Scalability for High-Volume Travel
+As passenger volume grows:
+●	Queues increase exponentially
+●	Staffing requirements rise
+●	Infrastructure becomes congested
+Current systems do not scale efficiently for mega-population markets like India.
+________________________________________
+5. Security Gaps & Fraud Vulnerability
+Physical and QR-based systems are prone to:
+●	Ticket sharing and resale
+●	ID impersonation
+●	Fake or altered documents
+Verification checks the document, not the person.
+________________________________________
+6. Device & Network Dependency
+Digital tickets and IDs depend on:
+●	Smartphones
+●	Battery life
+●	Internet connectivity
+Failures occur when:
+●	Phones are lost or discharged
+●	Networks are weak or unavailable
+Face-based identity works without devices at the point of access.
+________________________________________
+7. Poor Contactless Experience
+Despite demand for touch-free travel:
+●	Cards must be tapped
+●	Phones must be scanned
+●	Documents must be handled
+This limits hygiene, speed, and user comfort.
+________________________________________
+8. High Operational & Compliance Cost
+Operators must invest in:
+●	Printing and ticketing systems
+●	Access cards and scanners
+●	Verification staff and training
+●	Fraud investigation and audits
+These costs grow with scale and complexity.
+________________________________________
+9. No Real-Time Identity Intelligence
+Current systems cannot:
+●	Instantly know who is present
+●	Track journey continuity across modes
+●	Enable predictive security or crowd control
+Data exists, but identity is not persistent or interoperable.
+________________________________________
+10. Core Failure Summary
+Existing travel systems are document-centric, not human-centric.
+They verify what you carry, not who you are.
+Without a persistent, secure, face-based identity layer, travel remains slow, fragmented, and vulnerable.
+

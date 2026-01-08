@@ -12,6 +12,25 @@ import Security from "./pages/Security";
 import Technology from "./pages/Technology";
 import Partnership from "./pages/Partnership";
 import Investors from "./pages/Investors";
+import AntiMisuse from "./pages/AntiMisuse";
+
+import Careers from "./pages/Careers";
+
+
+
+
+import Problem from "./pages/Problem";
+import NotSurveillance from "./pages/NotSurveillance";
+
+import Ethics from "./pages/Ethics";
+import Vision from "./pages/Vision";
+import ScaleImpact from "./pages/ScaleImpact";
+import GovernmentPolicy from "./pages/GovernmentPolicy";
+import Roadmap from "./pages/Roadmap";
+import Important from "./pages/Important";
+
+// ...
+
 
 export default function App() {
   const { pathname, hash } = useLocation();
@@ -43,6 +62,19 @@ export default function App() {
           <Route path="/technology" element={<Technology />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/investors" element={<Investors />} />
+<Route path="/not-surveillance" element={<NotSurveillance />} />
+<Route path="/anti-misuse" element={<AntiMisuse />} />
+<Route path="/about" element={<About />} />
+<Route path="/problem" element={<Problem />} />
+<Route path="/technology" element={<Technology />} />
+<Route path="/security" element={<Security />} />
+<Route path="/ethics" element={<Ethics />} />
+<Route path="/vision" element={<Vision />} />
+<Route path="/scale-impact" element={<ScaleImpact />} />
+<Route path="/government-policy" element={<GovernmentPolicy />} />
+<Route path="/roadmap" element={<Roadmap />} />
+<Route path="/important" element={<Important />} />
+<Route path="/careers" element={<Careers />} />
         </Routes>
       </main>
 

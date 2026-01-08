@@ -1,0 +1,72 @@
+
+Why FacePass Travel Is NOT Surveillance
+Core Distinction
+Surveillance systems are designed to watch people continuously. FacePass Travel is designed to verify identity momentarily for access.
+The intent, architecture, and operation are fundamentally different.
+________________________________________
+1. Event-Based, Not Continuous Monitoring
+●	Surveillance tracks individuals all the time.
+●	FacePass Travel activates only at specific travel checkpoints.
+●	No background scanning, no passive observation.
+If there is no travel event, the system does nothing.
+________________________________________
+2. User-Initiated, Not Authority-Initiated
+●	Surveillance is imposed by authorities.
+●	FacePass Travel is voluntarily activated by the traveler when they choose to use it.
+●	Users opt in and can opt out at any time.
+Control stays with the individual.
+________________________________________
+3. Purpose-Bound to Travel Access Only
+●	Surveillance systems collect data for open-ended use.
+●	FacePass Travel is technically restricted to:
+○	Entry validation
+○	Journey authorization
+○	Exit confirmation
+It cannot be used for tracking behavior, movement patterns, or profiling.
+________________________________________
+4. No Location Tracking
+●	Surveillance systems map where people go.
+●	FacePass Travel does not track routes, dwell time, or movement paths.
+●	Only a single access event is recorded: allowed or denied.
+There is no concept of “following” a person.
+________________________________________
+5. No Centralized Watchlist Scanning
+●	Surveillance scans everyone against databases.
+●	FacePass Travel checks only enrolled users against their own consented identity.
+●	Non-users are invisible to the system.
+If you are not enrolled, you are not scanned.
+________________________________________
+6. No Facial Image Retention
+●	Surveillance stores and reuses facial images.
+●	FacePass Travel stores encrypted biometric templates, not images.
+●	Templates cannot be used to identify someone outside the system.
+This prevents secondary or hidden use.
+________________________________________
+7. No Behavioral Intelligence Creation
+●	Surveillance builds profiles: habits, routines, associations.
+●	FacePass Travel does not analyze behavior or frequency patterns.
+●	No scoring, ranking, or classification of individuals.
+The system never “learns” about a person’s life.
+________________________________________
+8. Transparent & Auditable Usage
+●	Surveillance systems operate invisibly.
+●	FacePass Travel provides users with:
+○	Access logs
+○	Timestamped verification events
+○	Operator identity
+Nothing happens without traceability.
+________________________________________
+9. Legal & Technical Firewalls
+●	Strong legal boundaries prevent repurposing.
+●	Technical controls block expansion into monitoring systems.
+●	Any attempt to convert FacePass Travel into surveillance would require complete architectural redesign.
+Misuse is not just illegal—it is technically infeasible.
+________________________________________
+10. Simple Litmus Test
+Surveillance watches you even when you do nothing.
+FacePass Travel acts only when you choose to travel.
+________________________________________
+Final Clarity Statement
+FacePass Travel does not observe people—it recognizes consented identity at a single moment to enable access.
+Replacing tickets and IDs with a face-based identity is a convenience and security upgrade, not a monitoring mechanism.
+
