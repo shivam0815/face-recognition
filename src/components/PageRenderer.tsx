@@ -1,5 +1,5 @@
 // src/components/PageRenderer.tsx
-import React from "react";
+
 import Card from "./Card";
 import SectionHeading from "./SectionHeading";
 

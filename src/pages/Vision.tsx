@@ -1,4 +1,4 @@
-import React from "react";
+
 import Seo from "../components/Seo";
 import PageRenderer from "../components/PageRenderer";
 import { site } from "../data/siteData";
