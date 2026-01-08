@@ -49,7 +49,7 @@ function FaceLogo({ className = "" }: { className?: string }) {
   );
 }
 
-function useOutsideClick(ref: React.RefObject<HTMLElement>, onOutside: () => void) {
+function useOutsideClick(ref: React.RefObject<HTMLElement | null>, onOutside: () => void) {
   useEffect(() => {
     function handler(e: MouseEvent) {
       if (!ref.current) return;
