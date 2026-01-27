@@ -13,41 +13,7 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
 const dropdownItemClass =
   "block px-3 py-2 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-100";
 
-function FaceLogo({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} fill="none" aria-hidden="true">
-      <path
-        d="M32 10c-9.3 0-16 6.7-16 16.4V34c0 11.3 6.9 20 16 20s16-8.7 16-20v-7.6C48 16.7 41.3 10 32 10Z"
-        stroke="currentColor"
-        strokeWidth="3.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M14 22v-4.5A5.5 5.5 0 0 1 19.5 12H24"
-        stroke="currentColor"
-        strokeWidth="3.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M50 22v-4.5A5.5 5.5 0 0 0 44.5 12H40"
-        stroke="currentColor"
-        strokeWidth="3.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path d="M26 30h0.01M38 30h0.01" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
-      <path
-        d="M26 40c2.5 2.5 9.5 2.5 12 0"
-        stroke="currentColor"
-        strokeWidth="3.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
+
 
 function useOutsideClick(ref: React.RefObject<HTMLElement | null>, onOutside: () => void) {
   useEffect(() => {

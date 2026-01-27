@@ -62,33 +62,39 @@ export default function Partnership() {
   useEffect(() => {
     setCount(readLeads().length);
   }, []);
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
-  const onSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
 
-    if (!orgName.trim()) return toast.error("Organization name is required");
-    if (!contactName.trim()) return toast.error("Contact person is required");
-    if (!email.trim()) return toast.error("Email is required");
-    if (!phone.trim()) return toast.error("Phone is required");
-    if (!city.trim()) return toast.error("City is required");
+const onSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
 
-    const lead: Lead = {
-      id: crypto.randomUUID(),
-      orgType,
-      orgName: orgName.trim(),
-      contactName: contactName.trim(),
-      email: email.trim(),
-      phone: phone.trim(),
-      useCase,
-      city: city.trim(),
-      message: message.trim(),
-      createdAt: new Date().toISOString(),
-    };
+  if (!orgName.trim()) return toast.error("Organization name is required");
+  if (!contactName.trim()) return toast.error("Contact person is required");
+  if (!email.trim()) return toast.error("Email is required");
+  if (!phone.trim()) return toast.error("Phone is required");
+  if (!city.trim()) return toast.error("City is required");
 
-    const leads = readLeads();
-    leads.unshift(lead);
-    writeLeads(leads);
-    setCount(leads.length);
+  try {
+    const res = await fetch(`${API_BASE}/api/partnership/submit`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        orgType,
+        orgName: orgName.trim(),
+        contactName: contactName.trim(),
+        email: email.trim(),
+        phone: phone.trim(),
+        useCase,
+        city: city.trim(),
+        message: message.trim(),
+      }),
+    });
+
+    const data = await res.json().catch(() => ({}));
+
+    if (!res.ok) {
+      return toast.error(data?.message || "Submit failed");
+    }
 
     toast.success("Submitted! We will reach out soon.");
 
@@ -98,7 +104,12 @@ export default function Partnership() {
     setPhone("");
     setCity("");
     setMessage("");
-  };
+  } catch (err) {
+    console.error(err);
+    toast.error("Network error");
+  }
+};
+;
 
   return (
     <>
