@@ -39,9 +39,7 @@ function readLeads(): Lead[] {
   }
 }
 
-function writeLeads(leads: Lead[]) {
-  localStorage.setItem(LS_KEY, JSON.stringify(leads));
-}
+
 
 export default function Partnership() {
   const useCaseOptions = useMemo(
