@@ -1,3 +1,4 @@
+// src/pages/Careers.tsx
 
 import Seo from "../components/Seo";
 import PageRenderer from "../components/PageRenderer";

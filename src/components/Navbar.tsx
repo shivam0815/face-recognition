@@ -177,13 +177,14 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3" onClick={() => setMobileOpen(false)}>
-          <div className="h-10 w-10 rounded-2xl bg-gradient-to-r from-brand-500 to-brand-700 text-white grid place-items-center shadow-lg shadow-brand-500/20">
-            <FaceLogo className="h-6 w-6" />
-          </div>
+          
           <div className="leading-tight">
-            <div className="font-heading font-extrabold tracking-tight text-slate-900">
-              S-PassX 360
-            </div>
+            <div className="font-heading font-extrabold tracking-tight text-slate-900 flex items-baseline">
+  <span>S-PASS</span>
+  <span className="mx-0.5 text-2xl font-black">X</span>
+  <span className="ml-1 text-sm font-semibold text-slate-600">360</span>
+</div>
+
           </div>
         </Link>
 

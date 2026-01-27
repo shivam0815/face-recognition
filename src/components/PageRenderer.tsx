@@ -2,6 +2,8 @@
 
 import Card from "./Card";
 import SectionHeading from "./SectionHeading";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 /**
  * Pragmatic renderer:
@@ -15,9 +17,12 @@ type SubItem = { title: string; content: string[] };
 type AnySection = {
   id: string;
   heading: string;
-  type?: string; // may be "text" | "bullets" | "subsections" or any string
+  type?: string; // "text" | "bullets" | "subsections" | "markdown" | any string
   text?: unknown;
   items?: unknown;
+
+  // ✅ for markdown sections
+  content?: unknown;
 };
 
 export type ContentPage = {
@@ -47,6 +52,9 @@ function SectionBlock({ s }: { s: AnySection }) {
   const canText = t === "text" && typeof s.text === "string";
   const canBullets = t === "bullets" && isStringArray(s.items);
   const canSubsections = t === "subsections" && isSubItemArray(s.items);
+
+  // ✅ MARKDOWN support
+  const canMarkdown = t === "markdown" && typeof s.content === "string";
 
   return (
     <Card className="p-6 sm:p-8">
@@ -88,6 +96,57 @@ function SectionBlock({ s }: { s: AnySection }) {
               </ul>
             </div>
           ))}
+        </div>
+      ) : null}
+
+      {/* ✅ MARKDOWN (tables, headings, lists) */}
+      {canMarkdown ? (
+        <div className="mt-4 text-slate-700 leading-relaxed">
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            components={{
+              h2: (p) => (
+                <h2
+                  className="mt-6 text-xl font-extrabold tracking-tight text-slate-900"
+                  {...p}
+                />
+              ),
+              h3: (p) => (
+                <h3
+                  className="mt-5 text-lg font-extrabold tracking-tight text-slate-900"
+                  {...p}
+                />
+              ),
+              p: (p) => <p className="mt-3" {...p} />,
+              ul: (p) => <ul className="mt-3 space-y-2" {...p} />,
+              li: (p) => (
+                <li className="leading-relaxed list-disc ml-5" {...p} />
+              ),
+              hr: () => <hr className="my-6 border-slate-200" />,
+              table: ({ ...props }) => (
+                <div className="mt-4 overflow-x-auto">
+                  <table
+                    className="w-full border-collapse text-sm"
+                    {...props}
+                  />
+                </div>
+              ),
+              thead: ({ ...props }) => (
+                <thead className="bg-slate-50" {...props} />
+              ),
+              th: ({ ...props }) => (
+                <th
+                  className="border border-slate-200 px-3 py-2 text-left font-bold text-slate-900"
+                  {...props}
+                />
+              ),
+              td: ({ ...props }) => (
+                <td className="border border-slate-200 px-3 py-2" {...props} />
+              )
+            }}
+          >
+            {s.content as string}
+          </ReactMarkdown>
         </div>
       ) : null}
 
