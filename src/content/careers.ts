@@ -13,16 +13,20 @@ export const careersPage = {
       content: `
 ## Workforce Requirement (Department & Profile Wise)
 
+> **Salary Band (All Roles): ₹70,000 – ₹80,000 / month**
+
+---
+
 ### 1. Executive & Leadership Team
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| Project Director / CEO | 1 | Overall strategy & govt liaison |
-| CTO / Tech Director | 1 | Technical vision & architecture |
-| COO / Operations Director | 1 | National operations & deployment |
-| CISO (Chief Information Security Officer) | 1 | Security & compliance oversight |
-| HR Head | 1 | Talent acquisition & policies |
-| Finance Head | 1 | Budgeting, funding, cost control |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| Project Director / CEO | 1 | 70,000 – 80,000 | Overall strategy & govt liaison |
+| CTO / Tech Director | 1 | 70,000 – 80,000 | Technical vision & architecture |
+| COO / Operations Director | 1 | 70,000 – 80,000 | National operations & deployment |
+| CISO (Chief Information Security Officer) | 1 | 70,000 – 80,000 | Security & compliance oversight |
+| HR Head | 1 | 70,000 – 80,000 | Talent acquisition & policies |
+| Finance Head | 1 | 70,000 – 80,000 | Budgeting, funding, cost control |
 
 **Total: 6**
 
@@ -30,15 +34,15 @@ export const careersPage = {
 
 ### 2. Technology / Development Department
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| Software Engineers (Front-end) | 40 | Web, mobile apps, UI/UX |
-| Software Engineers (Back-end) | 40 | APIs, integration, cloud |
-| DevOps Engineers | 20 | CI/CD, server deployment, monitoring |
-| Database Admins | 15 | Scaling & optimization |
-| Security Engineers / Pen-Testers | 20 | Ethical hacking & system hardening |
-| AI / ML Engineers | 25 | Face recognition, liveness detection, behavioral biometrics |
-| QA / Testing Engineers | 20 | Load testing, functional testing |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| Software Engineers (Front-end) | 40 | 70,000 – 80,000 | Web, mobile apps, UI/UX |
+| Software Engineers (Back-end) | 40 | 70,000 – 80,000 | APIs, integration, cloud |
+| DevOps Engineers | 20 | 70,000 – 80,000 | CI/CD, server deployment, monitoring |
+| Database Admins | 15 | 70,000 – 80,000 | Scaling & optimization |
+| Security Engineers / Pen-Testers | 20 | 70,000 – 80,000 | Ethical hacking & system hardening |
+| AI / ML Engineers | 25 | 70,000 – 80,000 | Face recognition, liveness detection, behavioral biometrics |
+| QA / Testing Engineers | 20 | 70,000 – 80,000 | Load testing, functional testing |
 
 **Total: 180**
 
@@ -46,12 +50,12 @@ export const careersPage = {
 
 ### 3. Infrastructure & IT Operations
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| Network Engineers | 15 | Connectivity & network reliability |
-| Cloud Architects | 10 | Cloud setup, redundancy, scaling |
-| System Administrators | 15 | Daily maintenance |
-| Data Center Operators | 10 | Physical infrastructure monitoring |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| Network Engineers | 15 | 70,000 – 80,000 | Connectivity & network reliability |
+| Cloud Architects | 10 | 70,000 – 80,000 | Cloud setup, redundancy, scaling |
+| System Administrators | 15 | 70,000 – 80,000 | Daily maintenance |
+| Data Center Operators | 10 | 70,000 – 80,000 | Physical infrastructure monitoring |
 
 **Total: 50**
 
@@ -59,12 +63,12 @@ export const careersPage = {
 
 ### 4. Security & Privacy Department
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| Identity & Access Management Specialists | 15 | Policy & enforcement |
-| Compliance Officers (Legal/Privacy) | 10 | DPDP, GDPR, IT Act compliance |
-| Audit & Risk Analysts | 10 | Continuous monitoring & reporting |
-| Incident Response Team | 10 | Cybersecurity breach handling |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| Identity & Access Management Specialists | 15 | 70,000 – 80,000 | Policy & enforcement |
+| Compliance Officers (Legal/Privacy) | 10 | 70,000 – 80,000 | DPDP, GDPR, IT Act compliance |
+| Audit & Risk Analysts | 10 | 70,000 – 80,000 | Continuous monitoring & reporting |
+| Incident Response Team | 10 | 70,000 – 80,000 | Cybersecurity breach handling |
 
 **Total: 45**
 
@@ -72,12 +76,12 @@ export const careersPage = {
 
 ### 5. Operations & Deployment Department
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| City / Regional Operations Managers | 20 | Oversee deployments in cities |
-| Field Technicians / Installers | 100 | Install & maintain hardware |
-| Support & Helpdesk Staff | 50 | User queries & troubleshooting |
-| Training Staff | 25 | Train government & enterprise users |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| City / Regional Operations Managers | 20 | 70,000 – 80,000 | Oversee deployments in cities |
+| Field Technicians / Installers | 100 | 70,000 – 80,000 | Install & maintain hardware |
+| Support & Helpdesk Staff | 50 | 70,000 – 80,000 | User queries & troubleshooting |
+| Training Staff | 25 | 70,000 – 80,000 | Train government & enterprise users |
 
 **Total: 195**
 
@@ -85,11 +89,11 @@ export const careersPage = {
 
 ### 6. Analytics & Research
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| Data Analysts | 15 | System usage patterns, efficiency |
-| Behavioral Analysts | 10 | User experience & biometric patterns |
-| AI Research Scientists | 10 | Liveness & behavioral biometrics improvement |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| Data Analysts | 15 | 70,000 – 80,000 | System usage patterns, efficiency |
+| Behavioral Analysts | 10 | 70,000 – 80,000 | User experience & biometric patterns |
+| AI Research Scientists | 10 | 70,000 – 80,000 | Liveness & behavioral biometrics improvement |
 
 **Total: 35**
 
@@ -97,12 +101,12 @@ export const careersPage = {
 
 ### 7. Administration & Support
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| HR Executives | 10 | Recruitment & HR support |
-| Finance Executives | 10 | Accounting & payments |
-| Legal Support | 5 | Contract & legal compliance |
-| Office Admin & Logistics | 10 | Day-to-day operations support |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| HR Executives | 10 | 70,000 – 80,000 | Recruitment & HR support |
+| Finance Executives | 10 | 70,000 – 80,000 | Accounting & payments |
+| Legal Support | 5 | 70,000 – 80,000 | Contract & legal compliance |
+| Office Admin & Logistics | 10 | 70,000 – 80,000 | Day-to-day operations support |
 
 **Total: 35**
 
@@ -110,33 +114,26 @@ export const careersPage = {
 
 ### 8. Communication & Public Engagement
 
-| Role | Count | Responsibility |
-|---|---:|---|
-| Public Relations Specialists | 10 | Media, public trust, campaigns |
-| Government Liaison Officers | 10 | State/federal coordination |
-| Training Content Creators | 5 | Manuals, videos, learning modules |
+| Role | Count | Monthly Salary (₹) | Responsibility |
+|---|---:|---:|---|
+| Public Relations Specialists | 10 | 70,000 – 80,000 | Media, public trust, campaigns |
+| Government Liaison Officers | 10 | 70,000 – 80,000 | State/federal coordination |
+| Training Content Creators | 5 | 70,000 – 80,000 | Manuals, videos, learning modules |
 
 **Total: 25**
 
 ---
 
-## Estimated Total Employees
+## Estimated Total Workforce by Department
 
-Executive & Leadership: 6
-
-Tech & Development: 180
-
-Infrastructure & IT Ops: 50
-
-Security & Privacy: 45
-
-Operations & Deployment: 195
-
-Analytics & Research: 35
-
-Administration & Support: 35
-
-Communication & Public Engagement: 25
+Executive & Leadership: 6  
+Tech & Development: 180  
+Infrastructure & IT Ops: 50  
+Security & Privacy: 45  
+Operations & Deployment: 195  
+Analytics & Research: 35  
+Administration & Support: 35  
+Communication & Public Engagement: 25  
 
 **Grand Total: 571 employees (approx)**
 
@@ -162,7 +159,6 @@ Communication & Public Engagement: 25
 - Smart city integration & digital infrastructure
 - Ethical use of technology, privacy principles
 - Role of candidates in operations and development  
-
 **Outcome:** Candidate understands the purpose, impact, and ethics of the project.
 
 ---
@@ -174,7 +170,6 @@ Communication & Public Engagement: 25
 - Internet, cloud, and networking fundamentals
 - Basic programming logic (Python/JavaScript fundamentals)
 - Working with databases (SQL/NoSQL basics)  
-
 **Outcome:** Candidate can operate software, understand tech systems, and handle basic troubleshooting.
 
 ---
@@ -187,7 +182,6 @@ Communication & Public Engagement: 25
 - Face recognition algorithms: eigenfaces, LBPH, deep learning approaches
 - Liveness detection logic & anti-spoofing techniques
 - Limitations and biases in AI systems  
-
 **Outcome:** Candidate knows how the technology identifies faces and prevents spoofing.
 
 ---
@@ -200,7 +194,6 @@ Communication & Public Engagement: 25
 - Zero-trust architecture explained
 - Audit trails, incident response, disaster recovery basics
 - Ethical handling of sensitive data  
-
 **Outcome:** Candidate understands why and how security is maintained.
 
 ---
@@ -212,7 +205,6 @@ Communication & Public Engagement: 25
 - Quantitative aptitude: percentages, ratios, basic algebra
 - Problem-solving for real-world scenarios
 - Analytical thinking for operational decisions  
-
 **Outcome:** Candidate can solve logic & aptitude problems quickly.
 
 ---
@@ -225,7 +217,6 @@ Communication & Public Engagement: 25
 - Daily operational workflows & reporting
 - User support and training procedures
 - Safety and emergency protocols  
-
 **Outcome:** Candidate understands how the system works on the ground.
 
 ---
@@ -237,7 +228,6 @@ Communication & Public Engagement: 25
 - Reporting incidents & operational issues
 - Team coordination & leadership basics
 - Customer support etiquette  
-
 **Outcome:** Candidate is ready for field or office communication tasks.
 
 ---
@@ -249,7 +239,6 @@ Communication & Public Engagement: 25
 - Quantitative aptitude practice problems
 - Domain knowledge scenario questions
 - Mini-projects on face recognition / deployment workflow  
-
 **Outcome:** Candidate gains confidence and readiness for the test.
 
 ---
@@ -272,7 +261,7 @@ Progress tracking with % completed per module
 Mock tests timed like real online tests  
 
 Highlights skills gained and practical applicability
-      `
-    }
-  ]
+      `,
+    },
+  ],
 };
